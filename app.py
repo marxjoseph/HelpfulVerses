@@ -23,7 +23,7 @@ def submit():
         "Make sure to reference the verse. "
         "After this please provide a explanation for the verse. "
         "After this please provide ways to practice this verse. "
-        "If the response below has nothing to do with emotions, religion, how they are feeling, or a verse they dont want you to use please respond with 'Not Applicable'. "
+        "If the response below has nothing to do with emotions, religion, how they are feeling, or a verse they don't want you to use please respond with 'Not Applicable'. "
         + textarea_content)
     )
     response_text = response.text if hasattr(response, 'text') else str(response)
